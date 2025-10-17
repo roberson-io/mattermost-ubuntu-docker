@@ -4,7 +4,7 @@
 ```bash
 curl -O https://raw.githubusercontent.com/roberson-io/mattermost-ubuntu-docker/main/install-mattermost.sh
 chmod +x install-mattermost.sh
-./install-mattermost.sh
+sudo ./install-mattermost.sh
 ```
 
 This will clone the Mattermost Docker repo into a directory named `mattermost-docker` rather than `docker`.
